@@ -18,9 +18,16 @@ class Player
     add_player(self)
     p "Player added"
   end
-  
-  def got_hit
+
+  def got_hit1
     @health -= 5
+    update_player1(self)
+    p "Player hit"
+  end
+
+  def got_hit2
+    @health -= 5
+    update_player2(self)
   end
 
   def name

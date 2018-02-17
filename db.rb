@@ -29,6 +29,18 @@ def add_player(player_name)
   connection.exec("INSERT INTO players (name, health) VALUES ('#{player_name}', 50)")
   p "Item created: #{player_name}"
 end
+
+def update_player1(player_name)
+  connection.exec('UPDATE players
+  SET health=health-5
+  WHERE id=1')
+end
+
+def update_player2(player_name1)
+  UPDATE players
+  SET health-=5
+  WHERE id=2
+end
 #
 # # Output a table of current data in our database by running this script: `ruby db.rb`
 # # You'll see it print out a table of the current contents of our database

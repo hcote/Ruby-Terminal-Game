@@ -14,6 +14,11 @@ class Player
     @health = 50
   end
 
+  def save
+    add_player(self)
+    p "Player added"
+  end
+  
   def got_hit
     @health -= 5
   end
@@ -23,6 +28,9 @@ class Player
   end
 
   def get_name
-    p "My name"
+    p "Mdsadlkja;ksjme"
   end
 end
+
+
+par = Player.new("Paco", 32)

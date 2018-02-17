@@ -23,6 +23,7 @@ class Player
     @health -= 5
     update_player1(self)
     p "Player hit"
+
   end
 
   def got_hit2
@@ -41,3 +42,4 @@ end
 
 
 par = Player.new("Paco", 32)
+puts par.got_hit1

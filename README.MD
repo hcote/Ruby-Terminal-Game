@@ -1,20 +1,15 @@
-# Text Adventure
+# beatbowser
 
-**Requirements**
+beatbowser is a terminal based game that pits a player against a beast of gigantic proportions.
 
-You're going to create a text adventure! Your options are:
+Each round the player and the monster get a chance to attack each other. Both begin with 50 health points. Each hit will do between 1-5 points of damage.
 
-1. Text based adventure
-2. Trivia game
-3. Battle Simulator
+The data structure consist of
 
-Your game must be playable in the terminal or ruby interpreter (IRB). Either is fine.
+- A psql database
+- One table containing the data for each player
+- The model consist of a Player class and its methods
 
-Your game must:
+TEAM members
 
-- Create a database
-- Create at least 1 table in your database.
-- Use at least 2 datatypes (strings, numbers or booleans)
-- Create at least 1 model
-
-Resource: https://jsrn.gitbooks.io/make-your-first-text-adventure-in-ruby/content/index.html
+Hunter, Omar, Mario, DJ, and Juan Carlos
